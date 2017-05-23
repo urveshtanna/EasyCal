@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="general_white">#ffffff</color>
+    <color name="general_gray_light">#05000000</color>
+    <color name="general_gray_dark">#9b9b9b</color>
+    <color name="snackbar_background">#323232</color>
+    <color name="snackbar_error_background">@color/md_red_400</color>
+    <!-- Main App Theme -->
+    <color name="theme_primary">@color/colorPrimary</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray_background">#ffe5e5e5</color>
+
+    <color name="theme_text_primary">#ff212121</color>
+    <color name="theme_text_secondary">#ff757575</color>
+    <color name="theme_text_tertiary">#ffbdbdbd</color>
+    <!-- dialogs-->
+
+    <color name="theme_green">#1ece6d</color>
+    <color name="theme_green_dark">#00b853</color>
+    <!-- 004D40  83B93F-->
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorPrimary">@color/bright_blue</color>
+    <color name="colorPrimaryLight">#76b7ff</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="colorAccentDark">#D32F2F</color>
+    <color name="colorPrimaryTextColor">#212121</color>
+    <color name="colorSecondaryTextColor">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+
+    <color name="md_black_1000">#000000</color>
+    <color name="md_green_400">#66BB6A</color>
+    <color name="md_green_700">#388E3C</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_50">#FAFAFA</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_light_disabled">#eeeeee</color>
+    <color name="md_red_400">#EF5350</color>
+    <color name="md_white_1000">#FFFFFF</color>
+    <color name="md_yellow_500">#FFEB3B</color>
+
+    <color name="off_white">#f6f6f6</color>
+    <color name="light_navy">#124170</color>
+    <color name="graph_bar_color">#6dc3ff</color>
+    <color name="bright_blue">#0076ff</color>
+    <color name="bright_lime_green">#4ee900</color>
+    <color name="squash">#f6a623</color>
+    <color name="squash_dark">#FFB47A1A</color>
+    <color name="theme_red">#d0021b</color>
+    <color name="theme_red_2">#ff5f00</color>
+    <color name="dark_grey">#4a4a4a</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="colorPrimarySelected">#FF015FCC</color>
+
+</resources>

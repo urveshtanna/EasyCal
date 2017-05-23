@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="model"
+            type="in.urveshtanna.easycal.model.Calculation"/>
+
+    </data>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+
+        <EditText
+            android:id="@+id/edt_symbol"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:gravity="end"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:imeOptions="actionNext"
+            android:text="@{model.symbol}"
+            android:layout_width="0dp" />
+
+
+        <EditText
+            android:background="#FFF"
+            android:id="@+id/edt_number"
+            android:layout_height="36dp"
+            android:layout_weight="2"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:inputType="numberDecimal|numberSigned"
+            android:digits="0123456789"
+            android:gravity="start"
+            android:layout_width="0dp" />
+
+        <TextView
+            android:id="@+id/tv_answers"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#FFF"
+            android:gravity="start"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:layout_width="0dp" />
+
+
+    </LinearLayout>
+
+</layout>
