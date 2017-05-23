@@ -173,7 +173,7 @@ public class MainCalculationAdapter extends RecyclerView.Adapter<RecyclerView.Vi
                         holder.getBinding().edtSymbol.setText("");
                     }
                 } else {
-                    holder.getBinding().edtNumber.setText(NumberFormat.getNumberInstance(Locale.US).format(holder.getBinding().edtNumber.getText().toString().substring(0, holder.getBinding().edtNumber.length() - 1)));
+                    holder.getBinding().edtNumber.setText(holder.getBinding().edtNumber.getText().toString().substring(0, holder.getBinding().edtNumber.length() - 1));
                 }
             }
             ((MainActivity) mContext).updateTotal(true);
