@@ -10,10 +10,8 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 
-import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 import in.urveshtanna.easycal.adapters.MainCalculationAdapter;
 import in.urveshtanna.easycal.databinding.ActivityMainBinding;
@@ -164,7 +162,7 @@ public class MainActivity extends ParentActivity implements View.OnClickListener
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     if (!text.contains(".")) {
                         text += ".";
-                        adapter.getEdtFocusedNumberText().setText(NumberFormat.getNumberInstance(Locale.US).format(text));
+                        adapter.getEdtFocusedNumberText().setText(text);
                     }
                 }
                 break;
@@ -172,70 +170,70 @@ public class MainActivity extends ParentActivity implements View.OnClickListener
                 if (adapter.getEdtFocusedNumberText() != null) {
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "0";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonOne:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "1";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonTwo:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "2";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonThree:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "3";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonFour:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "4";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonFive:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "5";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonSix:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "6";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonSeven:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "7";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonEight:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "8";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonNine:
                 if (adapter.getEdtFocusedNumberText() != null){
                     String text = adapter.getEdtFocusedNumberText().getText().toString();
                     text += "9";
-                    adapter.getEdtFocusedNumberText().append(NumberFormat.getNumberInstance(Locale.US).format(text));
+                    adapter.getEdtFocusedNumberText().setText(text);
                 }
                 break;
             case R.id.buttonNext:
