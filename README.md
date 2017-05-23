@@ -12,5 +12,5 @@ A easy to calculate your expenses in vertical and readable way. In short a simpl
 <br>
 <br>
 
-<a href="url"><img src="screenshots/screenshot_two.png"  width="300" align="left" hspace="50" ></a>
-<a href="url"><img src="screenshots/screenshot_three.png" width="300" align="right" hspace="50" ></a>
+<a><img src="screenshots/screenshot_two.png"  width="300" align="left" hspace="50" ></a>
+<a><img src="screenshots/screenshot_three.png" width="300" align="right" hspace="50" ></a>
